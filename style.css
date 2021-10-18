@@ -1,16 +1,4 @@
-*{
-    background-color: rgb(226, 222, 222);
-}
-#parent{
-    
-    background-image:url("IMG-20211003-WA0003");
-    width: 55%;
-    height: 100%;
-    background-size: cover;
-    float: left;
-    position: relative;
-    margin-left: 20px;
-}
+
 
 #child{
     background-image: url(IMG-20211003-WA0004.jpg);
@@ -93,30 +81,37 @@ button
     #parent
     {
     
-        background-image: url("IMG-20211003-WA0003");
-        width: 45%;
+        background-image: url("IMG-20211003-WA0003.jpg");
+        width: 55%;
         height: 800px;
         float: left;
         position: relative;
+        margin-left: 30px ;
+    
+    
+    
+     
 
     }
 #child
 {
     background-image: url("IMG-20211003-WA0004.jpg");
     width: 25%;
-height: 34px;
-
-background-repeat: no-repeat;
+    height: 34px;
+    background-repeat: no-repeat;
     margin: 40px;
-padding-right: 10px;
-position: absolute;
+    padding-right: 10px;
+    position: absolute;
 }
 #img
 {
     background-image: url("IMG-20211003-WA0005.jpg");
    width: 40%;
-   height: 800px;
-   float:right;
+   height:800px;
+   float:left;
+   margin-left: 0;
+   margin-top: 0;
+   padding: 0;
    
    }
    input
@@ -134,6 +129,7 @@ position: absolute;
     left: 0;
     font-size: 20px;
     position: relative;
+    background-size:inherit;
     
       
     
@@ -148,7 +144,7 @@ button
     width: 5%;
     float:left;
     right: 0;
-    margin-right: 100px;
+    margin-right: 180px;
     font-size: 32px;
     color: white;
     position: absolute;
