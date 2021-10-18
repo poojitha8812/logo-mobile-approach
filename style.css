@@ -1,0 +1,167 @@
+*{
+    background-color: rgb(226, 222, 222);
+}
+#parent{
+    
+    background-image:url("IMG-20211003-WA0003");
+    width: 55%;
+    height: 100%;
+    background-size: cover;
+    float: left;
+    position: relative;
+    margin-left: 20px;
+}
+
+#child{
+    background-image: url(IMG-20211003-WA0004.jpg);
+    width: 15%;
+height: 34px;
+    margin: 40px;
+padding-right: 10px;
+}
+#img
+{
+    background-image: url(hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    margin: 20px;
+    height: 30vh;
+
+}
+
+*
+{
+    font-family: josefin sans;
+    line-height: 20px;
+    
+}
+input
+{
+
+    padding: 30px 50px;
+    border: 3px solid rgb(253, 199, 132);
+    background: whitesmoke;
+    border-radius: 50px;
+    size: 2rem;
+    color: rgb(238, 177, 97);
+    margin-left: 220px;
+    width: 40%;
+    float: left;
+    left: 0;
+    font-size: 20px;
+    position: relative;
+    
+      
+    
+
+}
+button
+{
+    padding:30px 50px;
+    border:3px solid rgb(253, 199, 132);
+    background-color: rgb(248, 169, 73);
+    border-radius: 50%;
+    width: 5%;
+    float:left;
+    right: 0;
+    margin-right: 240px;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    
+}
+
+.background{
+    display:none ;
+}
+.one{
+    display: block;
+}
+
+}
+
+@media screen and (min-width:800px)
+ {
+    
+}
+
+
+@media screen and (min-width:1024px)
+{
+   
+    #parent
+    {
+    
+        background-image: url("IMG-20211003-WA0003");
+        width: 45%;
+        height: 800px;
+        float: left;
+        position: relative;
+
+    }
+#child
+{
+    background-image: url("IMG-20211003-WA0004.jpg");
+    width: 25%;
+height: 34px;
+
+background-repeat: no-repeat;
+    margin: 40px;
+padding-right: 10px;
+position: absolute;
+}
+#img
+{
+    background-image: url("IMG-20211003-WA0005.jpg");
+   width: 40%;
+   height: 800px;
+   float:right;
+   
+   }
+   input
+{
+
+    padding: 30px 50px;
+    border: 3px solid rgb(253, 199, 132);
+    background: whitesmoke;
+    border-radius: 50px;
+    size: 2rem;
+    color: rgb(238, 177, 97);
+    margin-left: 120px;
+    width: 40%;
+    float: left;
+    left: 0;
+    font-size: 20px;
+    position: relative;
+    
+      
+    
+
+}
+button
+{
+    padding:30px 50px;
+    border:3px solid rgb(253, 199, 132);
+    background-color: rgb(248, 169, 73);
+    border-radius: 50%;
+    width: 5%;
+    float:left;
+    right: 0;
+    margin-right: 100px;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    
+}
+
+.background 
+{
+    display: block;
+}
+.one
+{
+    display: none;
+}
+
+}
